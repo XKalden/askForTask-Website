@@ -202,7 +202,7 @@
                     }
 
                     input[type=checkbox]:checked + label .checkbox__img{
-                        background-image: url(/img/taskers-check-icon.png);
+                        background-image: url(../img/taskers-check-icon.png);
                     }
                 }
 
@@ -230,8 +230,10 @@
                     }
 
                     input[type=checkbox]:checked + label .checkbox__img{
-                        background-image: url(/img/taskers-check-icon.png);
+                        background-image: url('../img/taskers-check-icon.png');
                     }
+
+                   
             
                 }
             } // .check box

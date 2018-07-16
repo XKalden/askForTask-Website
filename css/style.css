@@ -585,7 +585,7 @@ section {
             font-size: 16px;
             line-height: 24px; }
           .tasker__wrapper .categories .cleaning__form .cleaning__checkbox .check__home-cleaning input[type=checkbox]:checked + label .checkbox__img {
-            background-image: url(/img/taskers-check-icon.png); }
+            background-image: url(../img/taskers-check-icon.png); }
         .tasker__wrapper .categories .cleaning__form .cleaning__checkbox .check__office-cleaning {
           flex-grow: 1;
           margin-left: 11%; }
@@ -605,7 +605,7 @@ section {
             font-size: 16px;
             line-height: 24px; }
           .tasker__wrapper .categories .cleaning__form .cleaning__checkbox .check__office-cleaning input[type=checkbox]:checked + label .checkbox__img {
-            background-image: url(/img/taskers-check-icon.png); }
+            background-image: url("../img/taskers-check-icon.png"); }
       .tasker__wrapper .categories .cleaning__form .caution__message {
         text-align: center;
         color: black;
