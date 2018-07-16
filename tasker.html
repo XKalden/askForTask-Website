@@ -1,0 +1,327 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasker</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/093a60d5ab.js"></script>
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav>
+        <div class="container">
+            <a href="#"><div class="logo"></div></a> 
+            <ul>
+                    <li><a href="/">HELP</a></li>
+                    <li><a href="/">LOGIN <i class="fas fa-long-arrow-alt-right"></i></a></li>
+                    <li><a href="/">BOOK A TASK <i class="fas fa-long-arrow-alt-right"></i></a></li>
+                    <li><a href="/">BECOME A TASKER <i class="fas fa-long-arrow-alt-right"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="tasker__wrapper">
+
+        <!-- Title -->
+        <section class="tasker">
+            <div class="logo__containter">
+                <img class="logo" src="./img/gold-bee-hcomb.svg" alt="logo">
+            </div>
+            <h2>Become a Tasker</h2>
+            <p>Make up to $1,000/week performing tasks in your community.</p>
+        </section>
+
+        <!-- Caterogies -->
+        <section class="categories">
+            <h2>Categories</h2>
+            <p class="title">Please select your skill area.</p>
+
+            <div class="categories__wrapper">
+                <div class="cleaning">
+                    <div class="taskGroupImage">
+                        <div class="jqueryCleaning select nonSelect">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="mskill-1" name="mskillgroup" value="cleaning">
+                    <label for="mskill-1">
+                        <span class="jqueryCleaning select nonSelect">Cleaning</span>
+                    </label>
+                </div> <!-- Cleaning -->
+
+                <div class="handyman">
+                    <div class="taskGroupImage">
+                        <div class="jqueryHandyman select nonSelect">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="mskill-2" name="mskillgroup" value="handyman">
+                    <label for="mskill-2">
+                        <span class="jqueryHandyman select nonSelect">Handyman</span>
+                    </label>
+                </div> <!-- Handyman -->
+
+                <div class="general">
+                    <div class="taskGroupImage">
+                        <div class="jqueryGeneral select nonSelect">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="mskill-3" name="mskillgroup" value="general">
+                    <label for="mskill-3">
+                        <span class="jqueryGeneral select nonSelect">General</span>
+                    </label>
+                </div> <!-- General -->
+
+                <div class="funiture__Assembly">
+                    <div class="taskGroupImage">
+                        <div class="jqueryAssembly select nonSelect">
+                        </div>
+                    </div>
+
+                    <input type="radio" id="mskill-4" name="mskillgroup" value="assembly">
+                    <label for="mskill-4">
+                        <span class="jqueryAssembly select nonSelect">Funiture Assembly</span>
+                    </label>
+                </div> <!-- Assembly -->
+            </div> <!-- categories__wrapper -->
+           
+
+            <div class="cleaning__form"> 
+                <h2>Cleaning</h2>
+                <p class="form__p">Please select the skills that you're qualified for. <span class="italic"> Select all that apply.</span> </p>
+                
+                <div class="cleaning__checkbox">
+                    <h4>Cleaning</h4>
+
+                    <div class="checkbox__wrapper-flex">
+                        <div class="check__home-cleaning">
+                            <input class="checkbox__input" type="checkbox" id="selectbox1">
+                            <label for="selectbox1">
+                                <span class="checkbox__img"></span>
+                                <label for="selectbox1">Home Cleaning</label>
+                            </label>
+                        </div>
+                        
+                        <div class="check__office-cleaning">
+                            <input class="checkbox__input" type="checkbox" id="selectbox2">
+                            <label for="selectbox2">
+                                <span class="checkbox__img"></span>
+                                <label for="selectbox2">Office Cleaning</label>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="cleaning__loading">
+                        <p class="form__p"> <i class="fas fa-sync-alt fa-spin"></i> Loading... </p>
+                    </div>
+                </div> <!-- check__box -->
+
+                <div class="caution__message">
+                    <span class="caution__img"><img src="./img/caution.png" alt="caution"></span>
+                    <p>We are only on-boarding female cleaners due to demand at this time.</p>
+                </div>
+
+                <button class="jquerybtn btn--form">NEXT</button>
+
+  
+            </div> <!-- cleaning__form -->
+
+
+            <div class="handyman__form">
+            
+                <h2>Handlyman</h2>
+                <p>Please select the skills that you're qualified for. <em>Select all that apply.</em></p>
+                
+    
+
+            </div> <!-- handyman__form -->
+
+
+            <div class="general__form">
+                <h2>General</h2>
+                <p>Please select the skills that you're qualified for. <em>Select all that apply.</em></p>
+            </div> <!-- general__form -->
+
+            <div class="assembly__form">
+                <h2>Funiture Assembly</h2>
+                <p>Please select the skills that you're qualified for. <em>Select all that apply.</em></p>
+
+            </div>
+        </section>  <!-- Categories -->
+
+        <section class="categories--2"> 
+            <h2>Categories</h2>
+        </section>
+
+        <section class="personal__Details"> 
+            <h2>Personal Details</h2>
+
+                <div class="form-group ">
+                    <input type="text" placeholder="First name" name="firstName" class="" />
+                </div>
+
+                <div class="form-group ">
+                    <input type="text" placeholder="Last name" name="lastName" />
+                </div>
+
+                <select name="city" id="city">
+                    <option value="select">Select City </option>
+                    <optgroup label="Alberta">
+                        <option value="calgary">Calgary</option>
+                        <option value="edmonton">Edmonton</option>
+                    </optgroup>
+                    <optgroup label="British Columbia">
+                        <option value="vancouver">Vancouver</option>
+                    </optgroup>
+                    <optgroup label="Nova Scotia">
+                        <option value="halifax">Halifax</option>
+                    </optgroup>
+                    <optgroup label="Ontario">
+                        <option value="ajax">Ajax</option>
+                        <option value="barrie">Barrie</option>
+                        <option value="brampton">Brampton</option>
+                        <option value="etobicoko">Etobicoke</option>
+                        <option value="markham">Markham</option>
+                        <option value="toronto">Toronto</option>
+                    </optgroup>
+                </select>
+
+                <div class="form-group">
+                    <input type="email" placeholder="Email address" name="email" />
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Mobile phone number" name="mobile" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"/>
+                </div>
+
+            
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+
+
+                <div class="form-group">
+                        <input type="text" placeholder="Address" name="address" />
+                </div>
+
+                <div class="form-group">
+                        <input type="text" placeholder="Postal code" name="postcode" />
+                </div>
+
+                <button class="btn--form__details">Sign up</button>
+
+        </section>
+
+        <section class="personal__Details--2"> 
+                <h2>Personal Details</h2>
+            </section>
+
+        <section class="additional__Information">
+            <h2>Additional Information</h2>
+        </section>
+    </div> <!--  .task__wrapper -->
+
+    <footer>
+            <div class="container">
+                <div class="footer__about">
+                        <div class="first">
+                            <img class="logo" alt="AskforTask" src="https://s3.amazonaws.com/askfortask/assets/img/new-aft-logo.png" height="400px">
+                            <p>AskforTask connects Canadians with vetted, reviewed and insured local Taskers to get everyday tasks done. Our Taskers offer cleaning, handyman and a variety of other services. With AskforTask, start getting stuff done.</p>
+                            <p>help@askfortask.com <br> HQ: 480 University Avenue, Suite 1503<br> Toronto, Canada</p>
+                        </div>
+               
+                        <div class="second">
+                            <h5>Company</h5>
+                            <ul class="link-list">
+                                <li><a href="">Help</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a class="" href="">News</a></li>
+                                <li><a class="" href="">Insurance</a></li>
+                                <li><a class="" href="">Media Kit</a></li>
+                                <li><a class="" href="/">About</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ul>
+                        </div>   
+                        
+                        <div class="third">
+                            <h5>Discover</h5>
+                            <ul class="link-list">
+                                <li><a href="">How it Works</a></li>
+                                <li><a href="">Request Service</a></li>
+                                <li><a class="" href="">Become a Tasker</a></li>
+                                <li><a class="" href="">AskforTask</a></li>
+                                <li><a class="" href="">Business</a></li>
+                                <li><a class="" href="/">Terms of Use</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Tasker Agreement</a></li>
+                            </ul>
+                        </div>
+                        <div class="fourth">
+                                <h5>Cities</h5>
+                                <ul class="link-list">
+                                    <li><a href="">Toronto</a></li>
+                                    <li><a href="">Calgary</a></li>
+                                    <li><a class="" href="">Mississauga</a></li>
+                                    <li><a class="" href="">Brampton</a></li>
+                                    <li><a class="" href="">Ottawa</a></li>
+                                    <li><a class="" href="/">Edmonton</a></li>
+                                    <li><a href="">Montreal</a></li>
+                                    <li><a href="">Vancouver</a></li>
+                                    <li><a href="">Other</a></li>
+                                </ul>
+                            </div>
+                    </div>
+               
+                <div class="footer__social">
+                    <div class="copy-right">
+                        <p>© Copyright 2017 AskforTask, All Rights Reserved.</p>
+                    </div>
+    
+                    <div class="social-link">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.instagram.com/">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+                        
+                                <li>
+                                    <a href="https://www.google.ca/">
+                                        <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+
+ 
+    <!-- jquery CDN google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- include takser.js script -->
+    <script src="./script/tasker.js"></script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+.btn{
+    border-color: #D6A529;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #D6A529;
+    font-family: inherit;
+    font-size:15px;
+
+
+
+    &__form{
+        background-color: #D6A529;
+        margin-top: 30px;
+        width: 88%;
+        padding: 9px;
+    
+    }
+    &__submit__light{
+        background-color: rgb(224, 193, 118);
+        border: 2px solid rgb(224, 193, 118);
+        margin-top: 30px;
+        width: 88%;
+        padding: 9px;
+    }
+
+}
+
+.btn--form{
+    margin: 0 auto;
+    background-color: #D08C2A;
+    color:white;
+    font-size: 15px;
+    padding: 9px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #D08C2A;
+    width: 170px;
+    display: none;
+}
+
+
+.btn--form__details{
+    margin: 0 auto;
+    background-color: #D08C2A;
+    color:white;
+    font-size: 15px;
+    padding: 9px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #D08C2A;
+    width: 170px;
+
+}
